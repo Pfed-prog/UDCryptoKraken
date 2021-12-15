@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(48, 250, 216, 0.767);
+}
+
+button {
+    height: 48px;
+    width: 385px;
+    margin: 10px;
+    border-radius: 24px;
+    padding: 16px 30px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+input {
+padding: 14px 2px;
+border: none;
+border-radius: 4px;
+background: #f1f1f1;
+margin: 12px;
+position: relative;
+text-align: center;
+font-weight: bold;
+}
+
+h1 {
+    font-size: 46px;
+    text-align: center;
+    font-family: Roboto, Helvetica, bold;
+    color: #f1f1f1;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto, Helvetica, bold;
+    color: orange;
+  }
