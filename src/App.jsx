@@ -68,7 +68,7 @@ const App: React.FC = () => {
 		  
 		    <ul className="logo-wrapper">
 			  <li className="logo-item"><img className="logo" src={logo} alt="logo"/></li>
-			  <li className="logo-item"><h1 className="logo-title">UDApp</h1></li>
+			  <li className="logo-item"><h1 className="logo-title">CryptoKraken</h1></li>
 			  <hr/>
 			</ul>
 			
@@ -93,7 +93,7 @@ const App: React.FC = () => {
 		    <img src={logo} alt="logo" />
 		  </div>
 		  <div className="login-title">
-		    <h1>UDApp | dCabinet</h1>
+		    <h1>UDApp | CryptoKraken</h1>
 		  </div>
           <button className="login-btn positioned" onClick={handleLogin}></button>
 		</div>
