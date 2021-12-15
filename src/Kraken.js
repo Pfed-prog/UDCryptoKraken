@@ -8,6 +8,8 @@ const KRAKEN_DATA_LABELS = Object.freeze({
   b: "Bid",
   c: "Last Trade Closed",
   v: "Volume",
+  p: "Volume weighted average price",
+  t: "Number of trades",
   l: "Low",
   h: "High",
   o: "Today Opening Price"
