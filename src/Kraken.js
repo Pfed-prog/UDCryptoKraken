@@ -1,6 +1,6 @@
 import { useState } from "react";
 import fetch from "isomorphic-fetch";
-import './css/BitcoinPrice.css';
+import './css/Kraken.css';
 const KRAKEN_API_URL = "https://api.kraken.com/0/public/Ticker";
 
 const KRAKEN_DATA_LABELS = Object.freeze({
@@ -62,7 +62,7 @@ const useFindTicker = () => {
   };
 };
 
-const BitcoinPrice = () => {
+const Kraken = () => {
   const { find, setSymbol, data, error } = useFindTicker();
 
   // On submit handler
@@ -102,4 +102,4 @@ const BitcoinPrice = () => {
   );
 };
 
-export default BitcoinPrice;
+export default Kraken;

@@ -1,10 +1,11 @@
 import UAuth from '@uauth/js';
 import React, {useEffect, useState} from 'react';
 
-import BitcoinPrice from './BitcoinPrice';
+import Kraken from './Kraken';
 import './css/Global.css';
 import './css/Nav.css';
 import './css/Login.css';
+import './css/Kraken.css';
 import logo from './img/uds180.png';
 import background from './img/video.mp4';
 
@@ -76,7 +77,7 @@ const App: React.FC = () => {
 			  <li className="auth-item"><button className="logout-btn" onClick={handleLogout}>Logout</button></li>
 			</ul>
 		  </div>
-		  <BitcoinPrice />
+		  <Kraken />
 		</>
     )
   }
