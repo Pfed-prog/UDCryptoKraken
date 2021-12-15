@@ -27,5 +27,9 @@ h1 {
     font-size: 46px;
     text-align: center;
     font-family: Roboto, Helvetica, bold;
-    color: #f1f1f1;
+    color: lightgreen;
 }
+
+.container {text-align: center;}
+
+.container.result{text-align: center;}
