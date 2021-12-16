@@ -1,4 +1,4 @@
-# UDapp | CryptoData
+# UDapp | CryptoKraken
 
 **Login with Unstoppable Domains and query the crypto trading pair using Kraken API.**
 
