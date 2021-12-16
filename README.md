@@ -1,16 +1,18 @@
-# UDapp | dCabinet 
+# UDapp | CryptoData
 
-This app is inspired by [jad-dev's UDSea app](https://github.com/jag-dev/UDSea) that displays NFT and resolves UD address.
+**Login with Unstoppable Domains and query the crypto trading pair using Kraken API.**
 
-We have added QR Code Functionality and an ability to monitor Bitcoin Price.
-![image](https://user-images.githubusercontent.com/66903336/146194160-56634454-385c-4749-a645-3e13eb00fcbb.png)
+![image](https://user-images.githubusercontent.com/66903336/146352795-420ddd3d-11ab-43f9-ac33-39564f3d1543.png)
+
+![image](https://user-images.githubusercontent.com/66903336/146352737-a90e4745-8a7a-4a78-906a-ba0b12775659.png)
+
 
 ## Submission Info
 
-[Live Demo](https://udlogin.vercel.app/)
+[Live Demo](https://udc-rypto-data.vercel.app/)
 
 YouTube Demo
 
 ## Additional References
 
-Bitcoin Price bar: https://w3collective.com/react-component-bitcoin-price/
+Krakn API: https://docs.kraken.com/rest/#operation/getTradableAssetPairs
